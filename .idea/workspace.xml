@@ -233,6 +233,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="calculator" />
       <option name="MAIN_CLASS_NAME" value="calculator.RunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
