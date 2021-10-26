@@ -20,7 +20,7 @@ import org.junit.Assert;
         calculator = new calculator();
     }
 
-    @Given("^The input value is (\\d+) and the Operation is (\\+)$")
+    @Given("^The input value is (\\d) and the Operation is (\\d)$")
     public void twoInputValuesAnd(String arg0, String arg1) {
         value = arg0;
         operator = arg1;

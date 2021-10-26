@@ -2,14 +2,14 @@
 Feature: Calculator
 
   Scenario: do the operations
-    Given Two input values, "16" and "sqr"
-    When I do the selected operation on the given operand
+    Given The input value is "16" and the Operation is "sqr"
+    When I enter the operand and operation in calculator
     Then I expect the result "4"
 
 
   Scenario Outline: do the operations
-    Given Two input values, <first> and <second>
-    When I add the two values
+    Given The input value is <first> and the Operation is <second>
+    When I enter the operand and operation in calculator
     Then I expect the result <result>
     Examples:
       | first | second | result          |

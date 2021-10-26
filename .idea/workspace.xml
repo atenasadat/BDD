@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f11671-8328-46f3-8382-9eb44054dc9a" name="Changes" comment="change the code to satisfy the new conditions">
+    <list default="true" id="03f11671-8328-46f3-8382-9eb44054dc9a" name="Changes" comment="some changes in data types">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/calculator/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/calculator/MyStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/calculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/calculator.feature" afterDir="false" />
     </list>
@@ -67,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635268402226</updated>
-      <workItem from="1635268408828" duration="2853000" />
+      <workItem from="1635268408828" duration="4734000" />
+      <workItem from="1635277547728" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="change the code to satisfy the new conditions">
       <created>1635271656294</created>
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635271656294</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="some changes in data types">
+      <created>1635272775151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635272775153</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,9 +99,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change the code to satisfy the new conditions" />
-    <option name="LAST_COMMIT_MESSAGE" value="change the code to satisfy the new conditions" />
+    <MESSAGE value="some changes in data types" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes in data types" />
   </component>
 </project>
