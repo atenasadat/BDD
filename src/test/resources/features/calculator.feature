@@ -17,5 +17,5 @@ Feature: Calculator
       | 4     | rvs    | "0.25"          |
       | 81    | sqr    | "9"             |
       | 0     | rvs    | "invalid input" |
-      | 5     | rvs    | "0.2"           |
+      | -5     | rvs    | "-0.2"           |
       | -1    | sqr    | "invalid input" |
