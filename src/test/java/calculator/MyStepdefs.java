@@ -11,29 +11,29 @@ import org.junit.Assert;
 
 
     private calculator calculator;
-    private int value1;
-    private int value2;
-    private int result;
+    private int value;
+    private String operator;
+    private String result;
 
     @Before
     public void before() {
         calculator = new calculator();
     }
 
-    @Given("^Two input values, (\\d+) and (\\d+)$")
-    public void twoInputValuesAnd(int arg0, int arg1) {
-        value1 = arg0;
-        value2 = arg1;
+    @Given("^The input value is (\\d+) and the Operation is (\\+)$")
+    public void twoInputValuesAnd(int arg0, String arg1) {
+        value = arg0;
+        operator = arg1;
     }
 
-    @When("^I add the two values$")
+    @When("^I enter the operand and operation in calculator$")
     public void iAddTheTwoValues() {
-        result = calculator.add(value1, value2);
+        result = calculator.add(value, operator);
         System.out.print(result);
     }
 
     @Then("^I expect the result (\\d+)$")
-    public void iExpectTheResult(int arg0) {
+    public void iExpectTheResult(String arg0) {
         Assert.assertEquals(arg0, result);
     }
 }

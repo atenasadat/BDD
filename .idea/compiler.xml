@@ -9,5 +9,8 @@
         <module name="BDD" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BDD" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
