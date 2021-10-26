@@ -1,17 +1,18 @@
 package calculator;
 
 public class calculator {
-    public String add(int a, String b) {
+    public String add(String a, String b) {
+        int operand = Integer.parseInt(a);
         switch (b) {
             case "sqr":
-                if (a >= 0) {
-                    return String.valueOf(Math.sqrt(a));
+                if (operand >= 0) {
+                    return String.valueOf(Math.sqrt(operand));
                 }
                 break;
 
             case "rvs":
-                if (a != 0) {
-                    return String.valueOf(1 / a);
+                if (operand != 0) {
+                    return String.valueOf(1 / operand);
                 }
                 break;
         }

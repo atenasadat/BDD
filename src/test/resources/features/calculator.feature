@@ -2,7 +2,7 @@
 Feature: Calculator
 
   Scenario: do the operations
-    Given Two input values, 16 and "sqr"
+    Given Two input values, "16" and "sqr"
     When I do the selected operation on the given operand
     Then I expect the result "4"
 
@@ -18,3 +18,4 @@ Feature: Calculator
       | 81    | sqr    | "9"             |
       | 0     | rvs    | "invalid input" |
       | 5     | rvs    | "0.2"           |
+      | -1    | sqr    | "invalid input" |
